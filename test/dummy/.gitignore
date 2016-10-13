@@ -1,0 +1,11 @@
+/node_modules/*/etc/node_modules/*
+/etc
+\n/node_modules/*
+/etc
+
+/node_modules/*
+/etc
+
+# file ignore from npm_rails
+/node_modules/*
+/etc

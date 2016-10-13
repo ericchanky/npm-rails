@@ -1,4 +1,4 @@
-# Npm::Rails
+# npm-rails
 Short description and motivation.
 
 ## Usage
@@ -10,7 +10,8 @@ rake npm:init
 Rails.application.config.assets.paths << Rails.root.join('node_modules')
 ```
 
-```install package
+Install npm library
+```install_package
 rake npm:install
 ```
 
@@ -18,7 +19,7 @@ rake npm:install
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'npm-rails'
+gem 'npm-rails', git: 'https://github.com/ericchanky/npm-rails.git'
 ```
 
 And then execute:
